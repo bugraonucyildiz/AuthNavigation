@@ -1,7 +1,7 @@
 # AuthNavigation
 Jetpack Compose Auth Multi Navigation
 
-Jetpack Compose Navigation Example
+# Jetpack Compose Navigation Example
 This is an example of a Jetpack Compose navigation setup with multiple screens and nested navigation.
 
 Overview
