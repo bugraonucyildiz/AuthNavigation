@@ -1,12 +1,17 @@
-# Jetpack Compose Auth Multi Navigation
 
 # Jetpack Compose Navigation Example
+
+Jetpack Compose Auth Multi Navigation
+
 This is an example of a Jetpack Compose navigation setup with multiple screens and nested navigation.
 
 ## Overview
+
 The app consists of two main navigation graphs: AuthNavigation and AuthenticatedNavigation.
 
+
 ## AuthNavigation
+
 The AuthNavigation graph handles the authentication flow, including the SplashScreen, SignUpScreen, and LoginScreen.
 
 SplashScreen: The initial screen of the app, shown when the app starts. It displays a simple welcome message and a button to navigate to the SignUpScreen.
@@ -15,7 +20,9 @@ SignUpScreen: The screen where users can sign up for the app. It displays a form
 
 LoginScreen: The screen where users can log in to the app. It displays a login form, and when successfully logged in, it navigates to the AuthenticatedNavigation graph.
 
+
 ## AuthenticatedNavigation
+
 The AuthenticatedNavigation graph represents the main navigation flow after the user is logged in. It includes HomeScreen, CallScreen, UserScreen, and SettingsScreen.
 
 HomeScreen: The main home screen of the app. It displays a welcome message and a button to navigate to the CallScreen.
@@ -26,7 +33,9 @@ UserScreen: The user profile screen. It shows the user's information and a butto
 
 SettingsScreen: The settings screen. It allows users to manage app settings and log out. When the "Go Authenticated Screens" button is clicked, it navigates back to the AuthNavigation graph, closing all the authenticated screens.
 
+
 ## Usage
+
 To use this navigation setup in your app, follow the steps below:
 
 Create a new Composable function for each screen, such as SplashScreen, SignUpScreen, LoginScreen, HomeScreen, CallScreen, UserScreen, and SettingsScreen.
