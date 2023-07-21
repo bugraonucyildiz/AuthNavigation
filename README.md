@@ -5,6 +5,19 @@ Jetpack Compose Auth Multi Navigation
 
 This is an example of a Jetpack Compose navigation setup with multiple screens and nested navigation.
 
+Here's how you can add the Jetpack Compose Navigation dependency to your project's Gradle file in English:
+
+To set up Jetpack Compose Navigation, add the following dependency to your project's build.gradle file:
+
+```
+dependencies {
+    // Other dependencies...
+
+    implementation "androidx.navigation:navigation-compose:2.4.0-alpha10"
+}
+```
+By adding this dependency, you will integrate Jetpack Compose Navigation into your project. Now, you can proceed to use the provided code examples to set up the navigation structure as described in the previous documentation.
+
 ## Overview
 
 The app consists of two main navigation graphs: AuthNavigation and AuthenticatedNavigation.
